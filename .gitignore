@@ -26,6 +26,11 @@ media/
 *.mp4
 *.mov
 
+# SVG files
+*.svg
+svg/
+assets/
+
 # Virtual Environment
 manim-env-py310/
 venv/
@@ -48,3 +53,7 @@ controcourse_vid1.fcpbundle/
 node_modules/
 package-lock.json
 package.json
+
+# Images and media
+images/
+src/

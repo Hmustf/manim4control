@@ -4,6 +4,9 @@ import control
 
 class RootLocusScene(Scene):
     def construct(self):
+        # Set background color
+        self.camera.background_color = "#1a1b1e"
+        
         # Create axes with new limits
         axes = Axes(
             x_range=[-50, 0, 5],
